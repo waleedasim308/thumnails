@@ -1,0 +1,109 @@
+
+body{
+  background:#282828;
+}
+.list1{
+display: flex;
+overflow-x: scroll;
+}
+.list2{
+display: flex;
+margin-top: 10px;
+overflow-x: scroll;
+}
+.heading_list{
+  display: flex;
+  margin-left:10px;
+  color: white;
+  margin-top: 50px;
+}
+.mainDiv{
+
+
+   font-size: 14px;
+   margin-left:10px;
+   margin-top: 10px;
+}
+
+.continer{
+  margin-left: 10px;
+
+}
+
+.continerActive{
+
+  -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+  transform: scale(1.1);
+  margin-bottom: 10px;
+  box-shadow: -10px 0px 25px -5px #282828, 5px 0px 25px -5px #282828;
+
+}
+
+.artist{
+  margin-top: 10px;
+  background:#202020;
+
+}
+
+.artist__blur{
+  height: 200px;
+  width: 200px;
+}
+
+.artist_blur_grid{
+  height: 100px;
+  width: 100px;
+}
+
+.artist__label{
+  background:#202020;
+  color: #888888;
+
+}
+.title{
+  margin: 5px;
+}
+.subtitle{
+  margin: 5px;
+}
+
+::-webkit-scrollbar {
+  height: 0px;              /* height of horizontal scrollbar ← You're missing this */
+  width: 0px;               /* width of vertical scrollbar */
+}
+*:focus {
+    outline: none;
+}
+
+.grid-container {
+  font-size: 10px;
+  display: grid;
+ grid-template-columns: 110px 110px 110px 110px;
+ overflow-y: scroll;
+
+
+
+}
+.grid_container {
+ overflow-y: scroll;
+}
+.grid-item {
+float: left;
+}
+
+.heading_grid{
+  margin-left:10px;
+  color: white;
+  margin-top: 50px;
+}
+
+
+
+/* img {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+} */
